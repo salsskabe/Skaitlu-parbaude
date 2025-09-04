@@ -3,14 +3,14 @@
 using namespace std;
 int main() {
 
-int skaitlis;
+float skaitlis;
 cout << "Ievadi skaitli: "<< endl;
 cin >> skaitlis;
 
 if (skaitlis == 0){
     cout << "Skaitlis ir 0";
 }
-else if (skaitlis >= 1){
+else if (skaitlis > 0){
     cout << "Skaitlis ir pozitīvs";
 }
 
